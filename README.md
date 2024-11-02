@@ -51,7 +51,7 @@ npm install
 Open another terminal to launch the `rosbridge_websocket` server, which provides a WebSocket connection for the GCS to communicate with ROS:
 
 ```bash
-roslaunch rosbridge_server rosbridge_websocket.launch
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
 
